@@ -452,7 +452,7 @@ body{
 @media(max-width:386px){
     /* half-price-march*/
     .half-price-march .half-product-img-box .half-product-red-box .price .name h4{
-        font-size: 2.3rem;
+        font-size: 2.2rem;
     }
     .half-price-march .half-product-img-box .half-product-red-box .price .normal-price h5 {
         font-size: 2.2rem;
