@@ -200,14 +200,15 @@ body{
     background-repeat: no-repeat;
     background-position: left 12% bottom;
     background-size:65rem;
-    padding: 141.5px 0 28px;
+    padding: 141.5px 10% 28px;
 }
 .extra-points .extra-points-png-bg{
     max-width: 1089px;
-    margin: 0 137.5px 0 auto;
+    margin: 0 0 0 auto;
 }
 .extra-points .extra-points-tit{
     text-align: center;
+    padding: 0 0 53.5px;
 }
 .extra-points .extra-points-tit p{
     font-size: 8.77rem;
@@ -223,7 +224,7 @@ body{
     position: relative;
     background-color: #000;
     height: 521px;
-    clip-path:polygon(8% 4%, 100% 3%, 100% 88%, 0% 96%);
+    clip-path:polygon(6% 4%, 100% 3%, 100% 88%, 0% 96%);
 }
 .extra-points .extra-points-png-bg .extra-points-polygon .extra-pay-points{
     position: absolute;
@@ -235,7 +236,7 @@ body{
     background-color: #ff4d61;
     box-sizing: border-box;
     text-align: center;
-    clip-path: polygon(8% 4%, 100% 3%, 100% 88%, 0% 96%);
+    clip-path: polygon(6% 4%, 100% 3%, 100% 88%, 0% 96%);
 }
 .extra-points .extra-points-png-bg .extra-points-polygon .extra-pay-points h5{
     font-size: 5.5rem;
@@ -244,21 +245,33 @@ body{
 .extra-points .extra-points-png-bg .extra-points-polygon .extra-pay-points img{
     width:556.5px;
 }
+.extra-points .extra-points-bg .gost-img{
+    width: 100%;
+    display: none;
+}
+.extra-points .extra-points-bg .gost-img img{
+    width: 200px;
+    display: flex;
+    margin: 0 auto 30px;
+}
 
 @media(max-width:1858px){
     /* extra-points */
-    .extra-points-bg{
-        width: 95%;
-    }
+    
     .extra-points .extra-points-png-bg {
         max-width: 1089px;
         width: 70%;
         margin: 0 0 0 auto;
     }
     .extra-points .extra-points-bg{
-        background-size: 35%;
+        background-size: 38%;
+    }
+    .extra-points .extra-points-bg{
+        background-position: left 7% bottom;
+        background-size:35%;
     }
     /* extra-points end*/
+    
 }
 @media(max-width:1600px){
     html{
@@ -273,14 +286,41 @@ body{
         width: 70%;
     }
      /* half-price-march end*/
+     /* extra-points*/
+     .extra-points .extra-points-png-bg .extra-points-polygon .extra-pay-points img {
+        width: 500px;
+    }
+    /* extra-points end*/
+     
 }
 @media(max-width:1440px){
+    /* half-price-march*/
     .half-price-march .half-price-tit p{
         font-size: 5rem;
     }
     .half-price-march .half-price-tit .main-tit{
         font-size: 9rem;
     }
+/* half-price-march end*/
+/* extra-points*/
+    .extra-points .extra-points-bg{
+        background-position: left 3% bottom;
+        background-size:35%;
+    }
+    .extra-points .extra-points-tit p {
+        font-size: 6.77rem;
+    }
+    .extra-points .extra-points-tit h3 {
+        font-size: 8rem;
+    }
+    .extra-points .extra-points-png-bg .extra-points-polygon .extra-pay-points h5 {
+        font-size: 4.5rem;
+        margin-bottom: 35px;
+    }
+    .extra-points .extra-points-png-bg .extra-points-polygon .extra-pay-points img {
+        width: 460px;
+    }
+    /* extra-points end*/
 }
 @media(max-width:1380px){
     
@@ -306,6 +346,19 @@ body{
         font-size: 8rem;
     }
     /* half-price-march end*/
+    /* discount-coupon-month */
+    .discount-coupon-month .main-tit h3{
+    font-size: 8rem ;
+    }
+    .discount-coupon-month .coupon-content .discount-coupon .coupon-img {
+        width: 400px;
+        margin-bottom: 31px;
+    }
+    .discount-coupon-month .coupon-content .discount-coupon .order-area {
+        width: 320px;
+        padding: 15px 0;
+    }
+    /* discount-coupon-month end*/
 }
 @media(max-width:1024px){
     /* half-price-march */
@@ -338,6 +391,40 @@ body{
         margin-top:1.5rem;
     }
     /* half-price-march end*/
+    /* discount-coupon-month*/
+    .discount-coupon-month .coupon-content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .discount-coupon-month .coupon-content .mr-78 {
+        margin: 0 0 55px 0;
+    }
+    .discount-coupon-month .coupon-content .discount-coupon .coupon-img {
+        width: 60%;
+        margin-bottom: 31px;
+    }
+    .discount-coupon-month .coupon-content .discount-coupon .order-area {
+        width: 50%;
+        padding: 15px 0;
+    }
+    /* discount-coupon-month end*/
+    /* extra-points */
+    
+    .extra-points .extra-points-bg{
+        background: none;
+        padding: 80.5px 10% 28px;
+    }
+    .extra-points .extra-points-png-bg {
+        max-width: 1089px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .extra-points .extra-points-bg .gost-img{
+        width: 100%;
+        display: block;
+    }
+    /* extra-points end*/
 }
 @media(max-width:768px){
     /* half-price-march */
@@ -384,9 +471,63 @@ body{
         margin-top:0.5rem;
     }
     /* half-price-march end*/
+ /* discount-coupon-month*/
+    .discount-coupon-month .main-tit h3{
+        font-size: 7rem ;
+    }
+     /* discount-coupon-month end*/
+     /* extra-points  */
+     .extra-points-polygon {
+        height: 423px;
+    }
+     .extra-points .extra-points-png-bg .extra-points-polygon .extra-pay-points {
+        padding: 82px 37.5px; 
+    }
+    .extra-points .extra-points-tit {
+        text-align: center;
+        padding: 0 0 33.5px;
+    }
+    .extra-points .extra-points-tit p {
+        font-size: 4.77rem;
+    }
+    .extra-points .extra-points-tit h3 {
+        font-size: 6rem;
+    }
+     .extra-points .extra-points-png-bg .extra-points-polygon .extra-pay-points h5 {
+        font-size: 3.5rem;
+        margin-bottom: 35px;
+    }
+    .extra-points .extra-points-png-bg .extra-points-polygon .extra-pay-points img {
+        width: 360px;
+    }
+    /* extra-points end */
+}
+@media(max-width:640px){
+    /* extra-points */
+    
+    .extra-points .extra-points-tit p {
+        font-size: 3.77rem;
+    }
+    .extra-points .extra-points-tit h3 {
+        font-size: 5rem;
+    }
+    .extra-points-polygon {
+        height: 363px;
+    }
+    .extra-points .extra-points-png-bg .extra-points-polygon .extra-pay-points h5 {
+        font-size: 3rem;
+        margin-bottom: 25px;
+    }
+    .extra-points .extra-points-png-bg .extra-points-polygon .extra-pay-points img {
+        width:300px;
+    }
+    /* extra-points end */
 }
 @media(max-width:540px){
     /* half-price-march end*/
+    .half-price-march {
+        padding: 89px 0px;
+    }
     .half-price-march .half-price-tit p{
         font-size: 2.8rem;
         margin-bottom: 20px;
@@ -407,6 +548,37 @@ body{
         border-radius: 31px;
     }
     /* half-price-march end*/
+    /* discount-coupon-month*/
+    .discount-coupon-month .main-tit h3{
+        font-size: 4rem ;
+    }
+     /* discount-coupon-month end*/
+      /* extra-points */
+    .extra-points-polygon {
+        height: 300px;
+    }
+    .extra-points .extra-points-bg .gost-img img {
+        width: 170px;
+        margin: 0 auto 25px;
+    }
+    .extra-points .extra-points-tit {
+        text-align: center;
+        padding: 0 0 27px;
+    }
+    .extra-points .extra-points-tit p {
+        font-size: 2.77rem;
+    }
+    .extra-points .extra-points-tit h3 {
+        font-size: 4rem;
+    }
+    .extra-points .extra-points-png-bg .extra-points-polygon .extra-pay-points h5 {
+        font-size: 2.5rem;
+        margin-bottom: 15px;
+    }
+    .extra-points .extra-points-png-bg .extra-points-polygon .extra-pay-points img {
+        width: 270px;
+    }
+       /* extra-points end */
 }
 @media(max-width:480px){
     /* half-price-march*/
@@ -451,10 +623,43 @@ body{
         border-radius: 15px;
     }
     /* half-price-march end*/
+    /* discount-coupon-month*/
+    .discount-coupon-month {
+        background-image: url(../img/discount-coupon-bg.jpg);
+        padding: 89px 0 ;
+    }
+    .discount-coupon-month .main-tit h3{
+        font-size: 3rem ;
+    }
+     /* discount-coupon-month end*/
+    /* extra-points */
+    .extra-points .extra-points-png-bg .extra-points-polygon .extra-pay-points {
+        padding: 49px 37.5px;
+    }
+    .extra-points-polygon {
+        height: 260px;
+    }
+     .extra-points .extra-points-png-bg .extra-points-polygon .extra-pay-points h5 {
+        font-size: 1.9rem;
+        margin-bottom: 15px;
+    }
+    .extra-points .extra-points-png-bg .extra-points-polygon .extra-pay-points img {
+        width: 200px;
+    }
+    /* extra-points end */
 @media(max-width:386px){
     /* half-price-march*/
     .half-price-march .half-product-img-box .half-product-red-box .price .name h4{
         font-size: 2.2rem;
+    }
+    .extra-points .extra-points-png-bg .extra-points-polygon .extra-pay-points {
+        padding: 29px 17.5px;
+    }
+    .extra-points .extra-points-tit p {
+        font-size: 2rem;
+    }
+    .extra-points .extra-points-tit h3 {
+        font-size: 3rem;
     }
     .half-price-march .half-product-img-box .half-product-red-box .price .normal-price h5 {
         font-size: 2.2rem;
@@ -463,6 +668,19 @@ body{
         font-size: 2.2rem;
     }
     /* half-price-march end*/
+     /* extra-points  */
+
+    .extra-points-polygon {
+    height: 200px;
+    }
+    .extra-points .extra-points-png-bg .extra-points-polygon .extra-pay-points h5 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
+    .extra-points .extra-points-png-bg .extra-points-polygon .extra-pay-points img {
+        width: 160px;
+    }
+     /* extra-points end */
 }
 @media(max-width:320px){
 
