@@ -1,4 +1,4 @@
-@import url(font.css);
+    @import url(font.css);
 @import url(common.css);
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
 
@@ -340,6 +340,7 @@ body{
     /* half-price-march end*/
 }
 @media(max-width:768px){
+    /* half-price-march */
     .half-price-march .half-price-tit p{
         font-size: 3rem;
         margin-bottom: 25px;
@@ -374,11 +375,16 @@ body{
     .half-price-march .half-product-img-box .half-product-red-box .price .half-price h5{
         font-size: 4rem;
     }
+    .half-price-march .half-product-img-box .half-product-red-box .price .won {
+        font-size: 2rem ; 
+    }
     .half-price-march .half-product-img-box .half-product-red-box .price .mt-30{
         margin-top:0.5rem;
     }
+    /* half-price-march end*/
 }
 @media(max-width:540px){
+    /* half-price-march end*/
     .half-price-march .half-price-tit p{
         font-size: 2.8rem;
         margin-bottom: 20px;
@@ -398,8 +404,10 @@ body{
         padding: 30px 5%;
         border-radius: 31px;
     }
+    /* half-price-march end*/
 }
 @media(max-width:480px){
+    /* half-price-march*/
     .half-price-march .half-price-tit p{
         font-size: 2.1rem;
         margin: 3rem;
@@ -411,7 +419,7 @@ body{
         padding: 31px 0 31px;
     }
     .half-price-march .half-product-img-box .half-product-red-box .price .name h4{
-        font-size: 3rem;
+        font-size: 3.1rem;
     }
     .half-price-march .half-product-img-box .half-product-red-box .price .normal-price {
        
@@ -440,6 +448,19 @@ body{
         padding: 3% 3%;
         border-radius: 15px;
     }
+    /* half-price-march end*/
+@media(max-width:386px){
+    /* half-price-march*/
+    .half-price-march .half-product-img-box .half-product-red-box .price .name h4{
+        font-size: 2.3rem;
+    }
+    .half-price-march .half-product-img-box .half-product-red-box .price .normal-price h5 {
+        font-size: 2.2rem;
+    }
+    .half-price-march .half-product-img-box .half-product-red-box .price .half-price h5 {
+        font-size: 2.2rem;
+    }
+    /* half-price-march end*/
 }
 @media(max-width:320px){
 
