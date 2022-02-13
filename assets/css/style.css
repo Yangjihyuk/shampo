@@ -360,8 +360,9 @@ body{
     .half-price-march .half-product-img-box .half-product-red-box .price .name h4{
         font-size: 4rem;
     }
-    .half-price-march .half-product-img-box .half-product-red-box .price .won{
-        font-size: 3rem;
+    .half-price-march .half-product-img-box .half-product-red-box .price .name:after {
+        background-image: linear-gradient(to right, black 37%, rgba(255,255,255,0) 0%);
+        background-size: 9px 3px;
     }
     .half-price-march .half-product-img-box .half-product-red-box .price .normal-price p{
         font-size: 3rem;
@@ -378,6 +379,7 @@ body{
     .half-price-march .half-product-img-box .half-product-red-box .price .won {
         font-size: 2rem ; 
     }
+
     .half-price-march .half-product-img-box .half-product-red-box .price .mt-30{
         margin-top:0.5rem;
     }
