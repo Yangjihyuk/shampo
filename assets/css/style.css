@@ -1,0 +1,446 @@
+@import url(font.css);
+@import url(common.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html{
+    font-size: 10px;
+    line-height: 1;
+}
+body{
+    font-family: 'Noto Sans KR', 'ChosunGs', sans-serif;
+}
+
+/* half-price-march */
+.half-price-march{
+    width: 100%;
+    padding: 89px 0 162px;
+    background-image: url(../img/main-banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.half-price-march .half-price-img{
+    width:1342px;
+    margin: 0 auto;
+}
+.half-price-march .half-price-img img{
+    width: 100%;
+}
+/* half-price-tit */
+.half-price-march .half-price-tit{
+    text-align: center;
+    margin-top: 69.5px;
+}
+.half-price-march .half-price-tit p{
+    font-size: 6rem;
+    margin-bottom: 45.5px;
+}
+.half-price-march .half-price-tit .main-tit{
+    font-size: 10rem;
+}
+/* half-price-tit end */
+/* half-product-img-box */
+.half-price-march .half-product-img-box{
+    width: 1323px;
+    margin: 0 auto;
+    background-color: #a5d1c6;
+    border: 10px solid #000;
+    border-radius: 10px;
+    padding:38.98px  44.64px;
+}
+.half-price-march .half-product-img-box .half-product-red-box{
+    border: 10px solid #000;
+    border-radius: 10px;
+    background-color: #ff4d61;
+    box-sizing: border-box;
+    padding: 86.5px 101px;
+}
+.half-price-march .half-product-img-box .half-product-red-box .half-product img{
+    width: 100%;
+}
+.half-price-march .half-product-img-box .half-product-red-box .price{
+    width: 712px;
+}
+.half-price-march .half-product-img-box .half-product-red-box .price{
+    margin: 0 auto;
+}
+.half-price-march .half-product-img-box .half-product-red-box .price .name{
+    position: relative;
+    box-sizing: border-box;
+    padding: 71.5px 0 51px;
+    text-align: center;
+}
+.half-price-march .half-product-img-box .half-product-red-box .price .name:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to 
+    right, black 33%, rgba(255,255,255,0) 0%);
+    background-position: bottom;
+    background-size: 15px 4px;
+    background-repeat: repeat-x;
+    padding-bottom: 20px;
+}
+.half-price-march .half-product-img-box .half-product-red-box .price .name h4{
+    font-size: 8rem;
+    font-weight: 500;
+}
+.half-price-march .half-product-img-box .half-product-red-box .price .normal-price{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 41.5px 0 32px;
+}
+.half-price-march .half-product-img-box .half-product-red-box .price .normal-price::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #000;
+}
+.half-price-march .half-product-img-box .half-product-red-box .price .normal-price p{
+    font-size: 4rem;
+    font-weight: 500;
+}
+.half-price-march .half-product-img-box .half-product-red-box .price .normal-price h5{
+    font-size: 5.5rem;
+}
+.half-price-march .half-product-img-box .half-product-red-box .price .won{
+    font-size: 4rem;
+}
+.half-price-march .half-product-img-box .half-product-red-box .price .pri{
+    display: flex;
+    align-items: center;
+}
+.half-price-march .half-product-img-box .half-product-red-box .price .half-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top:54px ;
+}
+.half-price-march .half-product-img-box .half-product-red-box .price .half-price p{
+    font-size: 6rem;
+}
+.half-price-march .half-product-img-box .half-product-red-box .price .half-price h5{
+    font-size: 10rem;
+}
+.half-price-march .order-area{
+    width: 593.5px;
+    box-sizing: border-box;
+    padding: 44px 157.5px;
+    background-color: #ff4d61;
+    border-radius: 41px;
+    box-shadow: 0 17px #000;
+    margin: 24px auto 0;
+}
+/* half-product-img-box end*/
+/* half-price-march-order-btn */
+.half-price-march .order-area a{
+    text-align: center;
+    color: #000;
+}
+/* half-price-march-order-btn end*/
+/* discount-coupon-month */
+.discount-coupon-month{
+    background-image: url(../img/discount-coupon-bg.jpg);
+    padding: 126px 0 150px;
+}
+.discount-coupon-month .coupon-content{
+    display: flex;
+    justify-content: center;
+}
+.discount-coupon-month .main-tit h3{
+    font-size: 8.77rem;
+}
+.discount-coupon-month .coupon-content .discount-coupon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.discount-coupon-month .coupon-content .discount-coupon .coupon-img{
+    width: 463px;
+    margin-bottom: 31px;
+}
+.discount-coupon-month .coupon-content .discount-coupon .order-area{
+    width: 401px;
+    box-sizing: border-box;
+    padding: 25px 91px ;
+    background-color: #000;
+    border-radius: 41px;
+    color: #d0b98d;
+}
+.discount-coupon-month .coupon-content .discount-coupon .order-area .order-btn{
+    color: #d0b98d;
+}
+/* discount-coupon-month end*/
+/* extra-points */
+.extra-points{
+    background-image: url(../img/extra-points-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.extra-points .extra-points-bg{
+    background-image: url(../img/extra-point-bg-img.png);
+    background-repeat: no-repeat;
+    background-position: left 12% bottom;
+    background-size:65rem;
+    padding: 141.5px 0 28px;
+}
+.extra-points .extra-points-png-bg{
+    max-width: 1089px;
+    margin: 0 137.5px 0 auto;
+}
+.extra-points .extra-points-tit{
+    text-align: center;
+}
+.extra-points .extra-points-tit p{
+    font-size: 8.77rem;
+    color: #ff8390;
+    font-style: oblique;
+}
+.extra-points .extra-points-tit h3{
+    font-size: 10rem;
+    color: #ffe92f;
+    font-style: oblique;
+}
+.extra-points-polygon{
+    position: relative;
+    background-color: #000;
+    height: 521px;
+    clip-path:polygon(8% 4%, 100% 3%, 100% 88%, 0% 96%);
+}
+.extra-points .extra-points-png-bg .extra-points-polygon .extra-pay-points{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    padding:102px 57.5px;
+    background-color: #ff4d61;
+    box-sizing: border-box;
+    text-align: center;
+    clip-path: polygon(8% 4%, 100% 3%, 100% 88%, 0% 96%);
+}
+.extra-points .extra-points-png-bg .extra-points-polygon .extra-pay-points h5{
+    font-size: 5.5rem;
+    margin-bottom: 35px;
+}
+.extra-points .extra-points-png-bg .extra-points-polygon .extra-pay-points img{
+    width:556.5px;
+}
+
+@media(max-width:1858px){
+    /* extra-points */
+    .extra-points-bg{
+        width: 95%;
+    }
+    .extra-points .extra-points-png-bg {
+        max-width: 1089px;
+        width: 70%;
+        margin: 0 0 0 auto;
+    }
+    .extra-points .extra-points-bg{
+        background-size: 35%;
+    }
+    /* extra-points end*/
+}
+@media(max-width:1600px){
+    html{
+        font-size: 8px;
+        line-height: 1;
+    }
+    /* half-price-march */
+    .half-price-march .half-price-img{
+        width: 80%;
+    }
+    .half-price-march .half-product-img-box{
+        width: 70%;
+    }
+     /* half-price-march end*/
+}
+@media(max-width:1440px){
+    .half-price-march .half-price-tit p{
+        font-size: 5rem;
+    }
+    .half-price-march .half-price-tit .main-tit{
+        font-size: 9rem;
+    }
+}
+@media(max-width:1380px){
+    
+    .half-price-march .half-product-img-box .half-product-red-box .price{
+        width: 80%;
+    }
+}
+@media(max-width:1280px){
+    /* half-price-march */
+    .half-price-march .half-price-tit p{
+        font-size: 4rem;
+    }
+    .half-price-march .half-price-tit .main-tit{
+        font-size: 7rem;
+    }
+    .half-price-march .half-product-img-box .half-product-red-box {
+        padding: 36.5px 51px;
+    }
+    .half-price-march .half-product-img-box .half-product-red-box .price .half-price p{
+        font-size: 5rem;
+    }
+    .half-price-march .half-product-img-box .half-product-red-box .price .half-price h5{
+        font-size: 8rem;
+    }
+    /* half-price-march end*/
+}
+@media(max-width:1024px){
+    /* half-price-march */
+    .half-price-march .half-price-tit p{
+        font-size: 4rem;
+    }
+    .half-price-march .half-price-tit .main-tit{
+        font-size: 6rem;
+    }
+    .half-price-march .half-product-img-box .half-product-red-box .price .name h4{
+        font-size: 6rem;
+    }
+    .half-price-march .half-product-img-box .half-product-red-box .price .half-price{
+    padding-top: 30px;    
+    }
+    .half-price-march .half-product-img-box .half-product-red-box .price .half-price p{
+        font-size: 4rem;
+    }
+    .half-price-march .half-product-img-box .half-product-red-box .price .half-price h5{
+        font-size: 6rem;
+    }
+    .half-price-march .half-product-img-box {
+        padding: 31.98px 34.64px; 
+    }
+    .half-price-march .order-area{
+        width: 40%;
+        padding: 44px 5%;
+    }
+    .half-price-march .half-product-img-box .half-product-red-box .price .mt-30{
+        margin-top:1.5rem;
+    }
+    /* half-price-march end*/
+}
+@media(max-width:768px){
+    .half-price-march .half-price-tit p{
+        font-size: 3rem;
+        margin-bottom: 25px;
+    }
+    .half-price-march .half-price-tit .main-tit{
+        font-size: 4.7rem;
+    }
+    .half-price-march .half-product-img-box{
+        padding: 21.98px 24.64px 31.98px;
+    }
+    .half-price-march .half-product-img-box .half-product-red-box{
+        padding: 16.5px 21px;
+    }
+    .half-price-march .half-product-img-box .half-product-red-box .price .name{
+        padding: 51.5px 0 31px;
+    }
+    .half-price-march .half-product-img-box .half-product-red-box .price .name h4{
+        font-size: 4rem;
+    }
+    .half-price-march .half-product-img-box .half-product-red-box .price .won{
+        font-size: 3rem;
+    }
+    .half-price-march .half-product-img-box .half-product-red-box .price .normal-price p{
+        font-size: 3rem;
+    }
+    .half-price-march .half-product-img-box .half-product-red-box .price .normal-price h5{
+        font-size: 4rem;
+    }
+    .half-price-march .half-product-img-box .half-product-red-box .price .half-price p{
+        font-size: 3rem;
+    }
+    .half-price-march .half-product-img-box .half-product-red-box .price .half-price h5{
+        font-size: 4rem;
+    }
+    .half-price-march .half-product-img-box .half-product-red-box .price .mt-30{
+        margin-top:0.5rem;
+    }
+}
+@media(max-width:540px){
+    .half-price-march .half-price-tit p{
+        font-size: 2.8rem;
+        margin-bottom: 20px;
+    }
+    .half-price-march .half-price-tit .main-tit{
+        font-size: 3.5rem;
+    }
+    .half-price-march .half-product-img-box .half-product-red-box{
+        border: 7px solid #000;
+    }
+    .half-price-march .half-product-img-box {
+        padding: 11.98px 14.64px; 
+        border: 7px solid #000;
+    }
+    .half-price-march .order-area {
+        width: 40%;
+        padding: 30px 5%;
+        border-radius: 31px;
+    }
+}
+@media(max-width:480px){
+    .half-price-march .half-price-tit p{
+        font-size: 2.1rem;
+        margin: 3rem;
+    }
+    .half-price-march .half-price-tit .main-tit{
+        font-size: 2.3rem;
+    }
+    .half-price-march .half-product-img-box .half-product-red-box .price .name {
+        padding: 31px 0 31px;
+    }
+    .half-price-march .half-product-img-box .half-product-red-box .price .name h4{
+        font-size: 3rem;
+    }
+    .half-price-march .half-product-img-box .half-product-red-box .price .normal-price {
+       
+        padding: 32px 0 32px;
+    }
+    .half-price-march .half-product-img-box .half-product-red-box .price .normal-price {
+        padding: 22px 0 22px;
+    }
+    .half-price-march .half-product-img-box .half-product-red-box .price .normal-price p{
+        font-size: 2rem;
+    }
+    .half-price-march .half-product-img-box .half-product-red-box .price .normal-price h5{
+        font-size: 3rem;
+    }
+    .half-price-march .half-product-img-box .half-product-red-box .price .half-price {
+        padding-top: 21px;
+    }
+    .half-price-march .half-product-img-box .half-product-red-box .price .half-price p{
+        font-size: 2rem;
+    }
+    .half-price-march .half-product-img-box .half-product-red-box .price .half-price h5{
+        font-size: 3rem;
+    }
+    .half-price-march .order-area {
+        width: 40%;
+        padding: 3% 3%;
+        border-radius: 15px;
+    }
+}
+@media(max-width:320px){
+
+}

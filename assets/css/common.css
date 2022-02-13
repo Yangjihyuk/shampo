@@ -1,0 +1,209 @@
+
+/* font */
+.noto-sans-kr-bold {
+    font-family:'Noto Sans KR','san-serif';
+    font-weight: 700 !important;
+}
+.noto-sans-kr-nomarl{
+    font-family: 'Noto Sans KR','san-serif';
+    font-weight: 500 ;
+}
+.chosungs-bold{
+    font-family:  'ChosunGs', 'san-serif';
+    font-weight:700 !important;
+}
+.chosungs-normal{
+    font-family:  'ChosunGs', 'san-serif';
+    font-weight: 400;
+}
+.holiday-in-rome-normal{
+    font-family:  'Holiday-in-Rome', 'san-serif';
+    font-weight: 400 ;
+}
+.holiday-in-rome-bold{
+    font-family:'Holiday-in-Rome', 'san-serif';
+    font-weight:700 !important;
+}
+
+/* 넓이 */
+.w-50{
+    width: 50%;
+}
+.w-33{
+    width: 33.3%;
+}
+.w-20{
+    width: 20%;
+}
+.w-10{
+    width: 10%;
+}
+/* 마진 */
+.mt-5{
+    margin-top: 0.5rem;
+}
+.mt-10{
+    margin-top: 1rem;
+}
+.mt-15{
+    margin-top: 1.5rem;
+}
+.mt-20{
+    margin-top: 2rem;
+}
+.mt-25{
+    margin-top: 2.5rem;
+}
+.mt-30{
+    margin-top: 3rem;
+}
+.mb-5{
+    margin-bottom: 0.5rem;
+}
+.mb-10{
+    margin-bottom: 1rem;
+}
+.mb-15{
+    margin-bottom: 1.5rem;
+}
+.mb-20{
+    margin-bottom: 2rem;
+}
+.mb-25{
+    margin-bottom: 2.5rem;
+}
+.mb-30{
+    margin-bottom: 3rem;
+}
+.mr-78{
+    margin-right: 78px;
+}
+/* 패딩 */
+.pt-5{
+    padding-top:0.5rem ;
+}
+.pt-10{
+    padding-top:1rem ;
+}
+.pt-15{
+    padding-top:1.5rem ;
+}
+.pt-20{
+    padding-top: 2rem;
+}
+.pt-25{
+    padding-top: 2.5rem;
+}
+.pt-30{
+    padding-top: 3rem;
+}
+.pb-5{
+    padding-bottom:0.5rem ;
+}
+.pb-10{
+    padding-bottom:1rem ;
+}
+.pb-15{
+    padding-bottom:1.5rem ;
+}
+.pb-20{
+    padding-bottom: 2rem;
+}
+.pb-25{
+    padding-bottom: 2.5rem;
+}
+.pb-30{
+    padding-bottom: 3rem;
+}
+.p-side-52{
+    padding: 0 52px;
+}
+/* 기능 */
+.row{
+    display: flex;
+}
+.text-center{
+    text-align: center;
+}
+/* 클래스 */
+.main-tit{
+    color: #fff;
+    text-align: center;
+    margin: 0 0 55px;
+}
+.t-s{
+    text-shadow: 0.0px 3.0px 0.02px #000,
+     -1.9px -2.3px 0.02px #000,
+     2.9px 0.6px 0.02px #000,
+     -2.7px 1.3px 0.02px #000,
+     1.2px -2.7px 0.02px #000,
+     0.7px 2.9px 0.02px #000,
+     -2.4px -1.8px 0.02px #000,
+     3.0px -0.1px 0.02px #000,
+     -2.3px 2.0px 0.02px #000,
+     0.5px -3.0px 0.02px #000,
+     1.4px 2.6px 0.02px #000,
+     -2.8px -1.2px 0.02px #000,
+     2.9px -0.8px 0.02px #000,
+     -1.7px 2.5px 0.02px #000,
+     -0.2px -3.0px 0.02px #000,
+     2.0px 2.2px 0.02px #000,
+     -3.0px -0.4px 0.02px #000,
+     2.6px -1.5px 0.02px #000,
+     -1.1px 2.8px 0.02px #000,
+     -0.9px -2.8px 0.02px #000,
+     2.5px 1.6px 0.02px #000,
+     -3.0px 0.3px 0.02px #000,
+     2.1px -2.1px 0.02px #000,
+     -0.3px 3.0px 0.02px #000;  
+}
+.order-btn{
+    font-size: 6rem;
+    font-style: oblique;
+}
+.btn-arrow{
+    width: 25px;
+    height: 30px
+}
+.order-area{
+    text-align: center;
+}
+@media(max-width:1756px){
+
+}
+@media(max-width:1380px){
+
+}
+@media(max-width:1024px){
+
+}
+@media(max-width:768px){
+    .order-btn{
+        font-size: 5rem;
+        font-style: oblique;
+    }
+    .btn-arrow{
+        width: 20px;
+        height: 25px
+    }
+}
+@media(max-width:540px){
+    .order-btn{
+        font-size: 4rem;
+        font-style: oblique;
+    }
+    .btn-arrow{
+        width: 10px;
+        height: 15px
+    }
+}
+@media(max-width:480px){
+    .order-btn{
+        font-size: 3rem;
+        font-style: oblique;
+    }
+    .btn-arrow{
+        width: 10px;
+        height: 15px
+    }
+}
