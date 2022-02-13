@@ -386,6 +386,7 @@ body{
     .half-price-march .order-area{
         width: 40%;
         padding: 44px 5%;
+        box-shadow: 0 10px #000;
     }
     .half-price-march .half-product-img-box .half-product-red-box .price .mt-30{
         margin-top:1.5rem;
@@ -621,7 +622,9 @@ body{
         width: 40%;
         padding: 3% 3%;
         border-radius: 15px;
+        box-shadow: 0 5px #000;
     }
+   
     /* half-price-march end*/
     /* discount-coupon-month*/
     .discount-coupon-month {
