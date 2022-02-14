@@ -411,7 +411,12 @@ body{
     }
     /* discount-coupon-month end*/
     /* extra-points */
-    
+    .extra-points .extra-points-bg .gost-img img {
+        position: relative;
+        width: 130px;
+        margin: 0 auto 25px;
+        transform: translate(15%,0);
+    }
     .extra-points .extra-points-bg{
         background: none;
         padding: 80.5px 10% 28px;
@@ -480,6 +485,10 @@ body{
      /* extra-points  */
      .extra-points-polygon {
         height: 423px;
+        clip-path: polygon(7% 5%, 99% 4%, 99% 87%, 1% 95%);
+    }
+    .extra-points .extra-points-png-bg .extra-points-polygon .extra-pay-points {
+        clip-path: polygon(6.7% 4.9%, 99.7% 4%, 99.7% 87%, 0.5% 95.5%);
     }
      .extra-points .extra-points-png-bg .extra-points-polygon .extra-pay-points {
         padding: 82px 37.5px; 
@@ -555,9 +564,7 @@ body{
     }
      /* discount-coupon-month end*/
       /* extra-points */
-    .extra-points-polygon {
-        height: 300px;
-    }
+    
     .extra-points .extra-points-bg .gost-img img {
         width: 170px;
         margin: 0 auto 25px;
@@ -636,6 +643,14 @@ body{
     }
      /* discount-coupon-month end*/
     /* extra-points */
+    .extra-points-polygon {
+        height: 300px;
+        clip-path: polygon(8% 6%, 98% 5%, 98% 86%, 2% 94%);
+}   
+
+    .extra-points .extra-points-png-bg .extra-points-polygon .extra-pay-points {
+        clip-path: polygon(6% 4%, 100% 3%, 101% 88%, 0% 96%);
+    }
     .extra-points .extra-points-png-bg .extra-points-polygon .extra-pay-points {
         padding: 49px 37.5px;
     }
@@ -686,5 +701,12 @@ body{
      /* extra-points end */
 }
 @media(max-width:320px){
-
+    
+    .extra-points-polygon {
+        height: 192px;
+        clip-path: polygon(8% 6%, 97% 5%, 97% 86%, 2% 94%);
+    }
+    .extra-points .extra-points-png-bg .extra-points-polygon .extra-pay-points {
+        clip-path: polygon(5.5% 3%, 100% 2%, 100% 88%, 0% 96%);
+    }
 }
